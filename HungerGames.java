@@ -11,8 +11,8 @@ public class HungerGames {
     // Constants
     public static ArrayList<String> tributes = new ArrayList<>();
     public static ArrayList<String> players = new ArrayList<>();
-    public static String[] items = {"Sword", "Shield", "Bow", "Arrow", "Food", "Water"};
-    public static String[] deaths = {"drowned", "stabbed", "shot", "poisoned", "burned", "crushed"};
+    public static String[] items = {"Sword", "Shield", "Bow", "Food", "Water"}; //make txt file
+    public static String[] deaths = {"stabbed", "bashed", "shot", "poisoned", "drowned"};
     public static ArrayList<String> kills = new ArrayList<>();
     public static int numTributes = 0;
     public static int day = 1;
