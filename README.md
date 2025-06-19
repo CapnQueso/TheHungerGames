@@ -4,4 +4,9 @@ featuring pokemon-style turn based combat, bots so you can play without your fri
 
 my first ever big project btw :)
 
+plan:
+make tributes objects that store name, items, kills, is a bot,
+make day simulations
+combat
+
 for questions, contact 'CapnQueso' on discord
