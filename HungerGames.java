@@ -2,12 +2,11 @@
 * @author Eli
 * @version 1.0
 * @date 2025-6-18
-*
 * A program to simulate the hunger games.
 */
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//goon
 public class HungerGames {
     // Constants
     public static ArrayList<String> tributes = new ArrayList<>();
@@ -60,6 +59,27 @@ public class HungerGames {
 
 
     }
+
+    /** 
+     * Simulate a turn in combat
+     * This method will be called when two tributes are in combat.
+     */
+    public static void combatTurn(){
+
+
+    }
+
+    /** Simulate combat between two tributes
+    *   Returns true if the attacker wins, false if the defender wins
+    *   @param attackerIndex The index of the attacking tribute in the tributes list
+    *   @param defenderIndex The index of the defending tribute in the tributes list
+    *   @return boolean indicating the outcome of the combat
+    */
+    public static boolean aiCombat(int attackerIndex, int defenderIndex) {
+
+        return true;
+    }
+
 
 
 }
